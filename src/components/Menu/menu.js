@@ -1,11 +1,12 @@
-import React from 'react'
-import MenuItem from './menu-items'
+import React from 'react';
+import MenuItem from '../MenuItem/menu-items';
+import './menu.css';
 
 function Menu() {
   return (
-    <header className='App-header'>
+    <header className='menu-wrapper'>
         <nav>
-            <ul>
+            <ul className='menu'>
                 <MenuItem text='Home' link="/"/>
                 <MenuItem text='Personajes' link="/personajes"/>
                 <MenuItem text='Citas' link="/citas"/>
